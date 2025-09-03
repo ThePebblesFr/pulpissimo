@@ -17,7 +17,7 @@ dependencies:
   apb:                         { git: "https://github.com/pulp-platform/apb.git",                rev: master }
   jtag_pulp:                   { git: "https://github.com/pulp-platform/jtag_pulp.git",          version: 0.3.0 }
   pulp_soc:                    { git: "https://github.com/pulp-platform/pulp_soc.git",           rev: c783d47 } # branch fc/verilator
-  pulp_cluster:                { git: "https://github.com/ThePebblesFr/pulp_cluster.git",        rev: master }
+  pulp_cluster:                { git: "https://github.com/pulp-platform/pulp_cluster.git",       version: 3.0.3 }
   tbtools:                     { git: "https://github.com/pulp-platform/tbtools.git",            version: 0.3.0 }
   tech_cells_generic:          { git: "https://github.com/pulp-platform/tech_cells_generic.git", rev: 8149cde } # branch fc/verilator
   pulpissimo_padframe_rtl_sim: { path: "hw/padframe/pulpissimo_padframe_rtl_sim_autogen" }

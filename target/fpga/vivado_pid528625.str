@@ -1,0 +1,291 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 528625
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jul 21 09:55:31 CEST 2025
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Ubuntu
+OS Version: 6.11.0-29-generic
+OS Architecture: amd64
+Available processors (cores): 32
+LSB Release Description: Ubuntu 24.04.1 LTS
+
+Display: 1
+Screen size: 2560x1600
+Local screen bounds: x = 1920, y = 0, width = 2560, height = 1600
+Screen resolution (DPI): 100
+Available screens: 3
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/tools/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/tools/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	pierre
+User home directory: /home/pierre
+User working directory: /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2024.2
+RDI_DATADIR: /tools/Xilinx/SharedData/2024.2/data:/tools/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: /home/pierre/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/pierre/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/pierre/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/vivado.log
+Vivado journal file: 	/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-528625-pierre-PC
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+PULP_SDK_HOME: /home/pierre/Documents/thesis/projects-pulp/pulp-runtime
+RDI_APPROOT: /tools/Xilinx/Vivado/2024.2
+RDI_BASEROOT: /tools/Xilinx/Vivado
+RDI_BINROOT: /tools/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/SharedData/2024.2/data:/tools/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /tools/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu/24:/tools/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/Vitis/2024.2/bin:/tools/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga:pierre-PC_1753084522_528557
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: /tools/Xilinx/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2024.2
+XILINX_SDK: /tools/Xilinx/Vitis/2024.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2024.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,593 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,593 MB. GUI used memory: 67 MB. Current time: 7/21/25, 9:55:32 AM CEST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // t (PAResourceEtoH.GettingStartedView_OPEN_PROJECT)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/pulpissimo-zcu104.xpr");
+// [GUI Memory]: 132 MB (+136193kb) [00:00:23]
+// [Engine Memory]: 1,627 MB (+1554962kb) [00:00:23]
+// Opening Vivado Project: /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/pulpissimo-zcu104.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 146 MB (+7477kb) [00:00:24]
+// [Engine Memory]: 1,711 MB (+2068kb) [00:00:24]
+// [Engine Memory]: 1,808 MB (+12382kb) [00:00:24]
+// Tcl Message: open_project /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/pulpissimo-zcu104.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/pulpissimo-zcu104.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'. 
+// Project name: pulpissimo-zcu104; location: /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104; part: xczu7ev-ffvc1156-2-e
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [Engine Memory]: 1,947 MB (+50665kb) [00:00:25]
+// [GUI Memory]: 154 MB (+361kb) [00:00:26]
+// [GUI Memory]: 164 MB (+2859kb) [00:00:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,967 MB. GUI used memory: 82 MB. Current time: 7/21/25, 9:55:52 AM CEST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 16, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu7ev-ffvc1156-2-e 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel", "Open Synthesized Design"); // a (RDIResource.ProgressDialog_CANCEL)
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_CLOSE
+// [Engine Memory]: 3,430 MB (+1453570kb) [00:00:40]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e INFO: [Project 1-454] Reading design checkpoint '/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/ips/xilinx_clk_mngr/xilinx_clk_mngr.gen/sources_1/ip/xilinx_clk_mngr/xilinx_clk_mngr.dcp' for cell 'i_pulpissimo/i_clock_gen/i_clk_manager' INFO: [Project 1-454] Reading design checkpoint '/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.gen/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.dcp' for cell 'i_pulpissimo/i_clock_gen/i_slow_clk_mngr' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.33 . Memory (MB): peak = 9046.875 ; gain = 0.000 ; free physical = 39232 ; free virtual = 61802 
+// Tcl Message: Parsing XDC File [/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/constraints/zcu104.xdc] Finished Parsing XDC File [/home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/pulpissimo-zcu104/constraints/zcu104.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:11 . Memory (MB): peak = 9527.004 ; gain = 1572.246 ; free physical = 39413 ; free virtual = 61988 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'dV' command handler elapsed time: 11 seconds
+dismissDialog("Open Synthesized Design"); // bh (Open Synthesized Design Progress)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog1)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 20s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 19, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,466 MB. GUI used memory: 94 MB. Current time: 7/21/25, 9:56:12 AM CEST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,052 MB. GUI used memory: 92 MB. Current time: 7/21/25, 9:56:22 AM CEST
+// [Engine Memory]: 4,053 MB (+472385kb) [00:00:57]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 201 MB (+29971kb) [00:00:58]
+// [Engine Memory]: 4,270 MB (+15815kb) [00:00:58]
+// [GUI Memory]: 260 MB (+51046kb) [00:00:59]
+// [Engine Memory]: 4,798 MB (+329360kb) [00:00:59]
+// Xgd.load filename: /home/pierre/Documents/thesis/projects-pulp/pulpissimo-cluster/target/fpga/./.Xil/Vivado-528625-pierre-PC/xczu7ev_detail.xgd_2924E2FA elapsed time: 1.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.6s
+// [GUI Memory]: 278 MB (+5122kb) [00:00:59]
+// DeviceView Instantiated
+// [GUI Memory]: 293 MB (+1379kb) [00:00:59]
+// [Engine Memory]: 5,054 MB (+16877kb) [00:00:59]
+// WARNING: HEventQueue.dispatchEvent() is taking  1170 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.3 . Memory (MB): peak = 9557.012 ; gain = 0.000 ; free physical = 39398 ; free virtual = 62025 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2998 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2024.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Read ShapeDB Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 9557.012 ; gain = 0.000 ; free physical = 39463 ; free virtual = 62033 
+// Tcl Message: INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. INFO: [Designutils 20-5722] Start Reading Physical Databases. 
+// Tcl Message: Reading placement. 
+// Tcl Message: Read Netlist Cache: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 9701.801 ; gain = 0.000 ; free physical = 39485 ; free virtual = 62055 
+// Tcl Message: Reading placer database... 
+// Tcl Message: Read Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9701.801 ; gain = 0.000 ; free physical = 39485 ; free virtual = 62055 Read PlaceDB: Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.96 . Memory (MB): peak = 9718.801 ; gain = 17.000 ; free physical = 39473 ; free virtual = 62043 Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9718.801 ; gain = 0.000 ; free physical = 39473 ; free virtual = 62043 
+// Tcl Message: Reading routing. 
+// Tcl Message: Read RouteStorage: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 10207.309 ; gain = 488.508 ; free physical = 39018 ; free virtual = 61587 Read Physdb Files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10207.309 ; gain = 505.508 ; free physical = 39018 ; free virtual = 61587 
+// Tcl Message: Restored from archive | CPU: 5.750000 secs | Memory: 492.233765 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10207.309 ; gain = 505.508 ; free physical = 39017 ; free virtual = 61587 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 10207.309 ; gain = 0.000 ; free physical = 39017 ; free virtual = 61587 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 50 instances were transformed.   DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 12 instances   IBUF => IBUF (IBUFCTRL, INBUF): 1 instance    IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance    IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 36 instances  
+// TclEventType: CURR_DESIGN_SET
+// Device view-level: 0.0
+// [GUI Memory]: 315 MB (+7769kb) [00:00:59]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 10722.609 ; gain = 1175.598 ; free physical = 38163 ; free virtual = 60777 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 5,502 MB (+204531kb) [00:01:00]
+// [GUI Memory]: 331 MB (+37kb) [00:01:00]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.2s
+// [GUI Memory]: 353 MB (+5610kb) [00:01:03]
+// WARNING: HEventQueue.dispatchEvent() is taking  3302 ms.
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 375 MB (+4757kb) [00:01:05]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/q.a': 20s
+// [GUI Memory]: 408 MB (+15471kb) [00:01:05]
+// 'dV' command handler elapsed time: 20 seconds
+// Elapsed time: 20 seconds
+dismissDialog("Open Implemented Design"); // bh (Open Implemented Design Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42s
+// Elapsed time: 60 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Methodology Violations"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Methodology Violations"); // aF (dialog2)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog3)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design, Schematic]", 31, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_soc_domain/pad_to_cpi_i[0][data6_i]]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_soc_domain]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_padframe]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_demux/mst[0]\\.psel]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_demux]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_err_slv/slv\\.pslverr]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_err_slv/slv\\.pslverr]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_apb_demux_addr_decode/addr_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_apb_demux_addr_decode]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_rstgen_soc_clk/rst_no]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_pins i_pulpissimo/i_rstgen_soc_clk/rst_no]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_clock_gen]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells i_pulpissimo/i_soc_domain]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,552 MB. GUI used memory: 306 MB. Current time: 7/21/25, 10:26:22 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,375 MB. GUI used memory: 306 MB. Current time: 7/21/25, 10:56:22 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,326 MB. GUI used memory: 287 MB. Current time: 7/21/25, 11:26:23 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,305 MB. GUI used memory: 285 MB. Current time: 7/21/25, 11:56:23 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,366 MB. GUI used memory: 285 MB. Current time: 7/21/25, 12:26:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,346 MB. GUI used memory: 277 MB. Current time: 7/21/25, 12:56:23 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1257 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,331 MB. GUI used memory: 276 MB. Current time: 7/21/25, 1:26:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,331 MB. GUI used memory: 276 MB. Current time: 7/21/25, 1:56:23 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:16m:47s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:16m:59s
+// HMemoryUtils.trashcanNow. Engine heap size: 5,357 MB. GUI used memory: 279 MB. Current time: 7/21/25, 2:26:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,355 MB. GUI used memory: 277 MB. Current time: 7/21/25, 2:56:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,355 MB. GUI used memory: 277 MB. Current time: 7/21/25, 3:26:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,355 MB. GUI used memory: 276 MB. Current time: 7/21/25, 3:56:23 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,355 MB. GUI used memory: 277 MB. Current time: 7/21/25, 4:26:23 PM CEST

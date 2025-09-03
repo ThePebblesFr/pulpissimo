@@ -182,7 +182,7 @@ module soc_domain #(
     // WRITE RESPONSE CHANNEL                        
     input logic [LOG_DEPTH:0]                         async_data_master_b_wptr_i,
     input logic [2**LOG_DEPTH-1:0][S2C_B_WIDTH-1:0]   async_data_master_b_data_i,
-    output logic [LOG_DEPTH:0]                        async_data_master_b_rptr_o, 
+    output logic [LOG_DEPTH:0]                        async_data_master_b_rptr_o    );
 
     input  logic                      dma_pe_evt_valid_i,
     output logic                      dma_pe_evt_ack_o,
